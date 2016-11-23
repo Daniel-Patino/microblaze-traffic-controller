@@ -1,0 +1,16 @@
+elfcheck
+Xilinx EDK 12.1 Build EDK_MS1.53d
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../hw_platform_0/system.xml -pe microblaze_0
+TestApp.elf 
+
+ELF file	: TestApp.elf
+ERROR:EDK:3165 - elfcheck failed!
+The following sections did not fit into Processor  memory:
+	Section .fini (0x81419408 - 0x81419423)
+	Section .init (0x814193E4 - 0x81419407)
+	Section .text (0x81418000 - 0x814193E3)
+
+Try using the linker script generation tools to generate an ELF that maps
+correctly to your hardware design.

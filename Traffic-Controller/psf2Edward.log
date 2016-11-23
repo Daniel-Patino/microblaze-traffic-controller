@@ -1,0 +1,61 @@
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb - H:\xup\embedded\lab4\system.mhs line 41 - 2
+master(s) : 9 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb - H:\xup\embedded\lab4\system.mhs line 48 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb - H:\xup\embedded\lab4\system.mhs line 55 - 1
+master(s) : 1 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_30_a\d
+   ata\microblaze_v2_1_0.mpd line 232 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_30_a\d
+   ata\microblaze_v2_1_0.mpd line 268 - No driver found. Port will be driven to
+   GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm
+   _v2_1_0.mpd line 228 - No driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm
+   _v2_1_0.mpd line 221 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm
+   _v2_1_0.mpd line 222 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm
+   _v2_1_0.mpd line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm
+   _v2_1_0.mpd line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm
+   _v2_1_0.mpd line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm
+   _v2_1_0.mpd line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   C:\Xilinx\12.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm
+   _v2_1_0.mpd line 227 - floating connection!
+WARNING:EDK:2099 - PORT:Peripheral_Reset CONNECTOR:sys_periph_reset -
+   H:\xup\embedded\lab4\system.mhs line 152 - floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Conversion to XML complete.

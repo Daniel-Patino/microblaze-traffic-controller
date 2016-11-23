@@ -1,0 +1,7 @@
+INFILE=H:\Project\FinalProject\implementation\system.ncd
+OUTFILE=H:\Project\FinalProject\implementation\system.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=H:\Project\FinalProject\implementation
+LICENSE=ISE
+USER_INFO=177140418_1777493160_210563255_921

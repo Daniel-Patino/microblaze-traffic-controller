@@ -1,0 +1,8 @@
+Release 12.1 Drc M.53d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Thu Jul 28 18:52:55 2016
+
+drc -z system.ncd system.pcf
+
+DRC detected 0 errors and 0 warnings.
