@@ -1,25 +1,0 @@
-Dependencies for Project 'project', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5834E241)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I"C:\Users\Danny\OneDrive - Florida International University\School\Microcomputers I\Final Project\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32L476xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574EE6E6)
-I (stm32l476xx.h)(0x58016984)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm4.h)(0x57363E5E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmsimd.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\1.2.0\Device\Include\system_stm32l4xx.h)(0x56D449DC)
-I (lcd.h)(0x56E0E812)
-F (.\startup_stm32l476xx.s)(0x563F80A4)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I"C:\Users\Danny\OneDrive - Florida International University\School\Microcomputers I\Final Project\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\1.2.0\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1"--list .\listings\startup_stm32l476xx.lst --xref -o .\objects\startup_stm32l476xx.o --depend .\objects\startup_stm32l476xx.d)
-F (.\stm32l476xx.h)(0x58016984)()
-F (.\LCD.c)(0x5807C342)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I"C:\Users\Danny\OneDrive - Florida International University\School\Microcomputers I\Final Project\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\1.2.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32L476xx-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
-I (lcd.h)(0x56E0E812)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
-I (stm32l476xx.h)(0x58016984)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm4.h)(0x57363E5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmsimd.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\1.2.0\Device\Include\system_stm32l4xx.h)(0x56D449DC)
-F (.\Pin_Connection.txt)(0x568A937E)()
